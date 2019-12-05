@@ -39,10 +39,22 @@ body{
 /* Jumbotron */
 
 .jumbo{
+  width: 100%;
   height: 500px;
+  margin-top: 70px;
+  padding-top: 100px;
   background-color: violet;
 }
 
+/* Section logos */
+#logos{
+  height: 200px;
+  background-color: lightgreen;
+
+}
+.logos_list li{
+  display: inline-block;
+}
 /* Main*/
 
 
@@ -64,8 +76,8 @@ body{
 
 /* LG */
 @media screen and (min-width: 992px){
-  .wrapper_lg_80{
+  /* .wrapper_lg_80{
     width: 80%;
     margin: 0 auto;
-  }
+  } */
 }
