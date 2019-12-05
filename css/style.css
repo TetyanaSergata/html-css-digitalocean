@@ -23,6 +23,25 @@ body{
   height: 30px;
 }
 
+.menu_item ul li{
+  display: inline-block;
+}
+
+.menu_right{
+  background-color: brown;
+  /* height: 100%; */
+}
+.menu_left{
+  background-color: yellow;
+  height: 100%;
+}
+
+/* Jumbotron */
+
+.jumbo{
+  height: 500px;
+  background-color: violet;
+}
 
 /* Main*/
 
