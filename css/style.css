@@ -1,9 +1,27 @@
 /* General */
-
+body{
+  /* background-color: lightgreen; */
+}
 
 
 /* Header */
 
+/* Navbar */
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  z-index: 5;
+  background-color: pink;
+
+}
+
+.logo img{
+  height: 30px;
+}
 
 
 /* Main*/
@@ -11,3 +29,24 @@
 
 
 /* Footer */
+
+/* Media Query */
+/* XS */
+@media screen and (max-width: 768px){
+  .wrapper_xs_100{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* MD */
+@media screen and (min-width: 768px){
+
+}
+
+/* LG */
+@media screen and (min-width: 992px){
+  .wrapper_lg_80{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
