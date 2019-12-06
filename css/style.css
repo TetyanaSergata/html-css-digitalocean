@@ -8,6 +8,10 @@ body{
   color: #031B4E;
 }
 
+.color_blue_grey{
+  color: #4E5F83;
+}
+
 .color_blue_electric{
   color: #064CFF;
 }
@@ -28,8 +32,12 @@ body{
   font-size: 22px;
 }
 
-.font_size_16{
-  font-size: 16px;
+.font_size_20{
+  font-size: 20px;
+}
+
+.font_size_18{
+  font-size: 18px;
 }
 
 .font_bold{
@@ -44,6 +52,21 @@ body{
   text-decoration: none;
 }
 
+.padding_top_20{
+  padding-top: 20px;
+}
+
+.padding_bottom_20{
+  padding-bottom: 20px;
+}
+
+.padding_bottom_40{
+  padding-bottom: 40px;
+}
+
+.padding_bottom_60{
+  padding-bottom: 60px;
+}
 
 
 /* Header */
@@ -190,7 +213,7 @@ body{
 
 .logo_list .splunk{
   height: 50px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .link_customer{
@@ -211,15 +234,14 @@ body{
 /* Main*/
 /* Top Main */
 .top_main{
-  height: 400px;
+  height: 600px;
   width: 100%;
   padding-top: 80px;
-  background-color: lightblue;
+  padding-left: 0px;
+  padding-right: 10px;
+  /* background-color: lightblue; */
 }
 
-.top_main p{
-  padding-bottom: 20px;
-}
 
 .list_item li {
   list-style: none;
@@ -232,6 +254,24 @@ body{
   color: #98A3B8;
 }
 
+.list_item li:first-child a {
+  color: #031B4E;
+}
+
+.column_item p{
+  color: #4E5F83;
+  font-size: 18px;
+
+
+}
+
+.column_item h4{
+  color: #031B4E;
+}
+
+.column_item img{
+  padding-bottom: 10px;
+}
 
 
 
@@ -244,6 +284,9 @@ body{
     width: 100%;
     margin: 0 auto;
   }
+  .padding_top_xs{
+    padding-top: 20px;
+  }
 
 }
 /* MD */
@@ -254,6 +297,8 @@ body{
   .header_text p{
     font-size: 18px;
   } */
+
+
 }
 
 /* LG */
@@ -276,6 +321,10 @@ body{
     margin: 0 auto;
     background-color: lightgreen;
   } */
+
+  .padding_bottom_lg{
+    padding-bottom: 61px;
+  }
 
 }
 
