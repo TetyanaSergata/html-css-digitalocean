@@ -84,8 +84,31 @@ body{
   margin-top: 70px;
   padding-top: 80px;
   padding-bottom: 50px;
-  background-color: violet;
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+
 }
+
+.header_text{
+  padding-right: 70px;
+  color: white;
+}
+
+/* .header_text h1{
+  font-size: 50px;
+}
+
+.header_text p{
+  font-size: 22px;
+} */
+
+.header_text h1{
+  font-size: 40px;
+}
+.header_text p{
+  font-size: 18px;
+}
+
 
 /* Form */
 .header_form{
@@ -146,16 +169,30 @@ body{
     width: 100%;
     margin: 0 auto;
   }
+  /* .header_text h1{
+    font-size: 40px;
+  }
+  .header_text p{
+    font-size: 18px;
+  } */
 }
 /* MD */
 @media screen and (min-width: 768px){
-
+  /* .header_text h1{
+    font-size: 40px;
+  }
+  .header_text p{
+    font-size: 18px;
+  } */
 }
 
 /* LG */
 @media screen and (min-width: 992px){
-  /* .wrapper_lg_80{
-    width: 80%;
-    margin: 0 auto;
-  } */
+  /.header_text h1{
+    font-size: 50px;
+  }
+
+  .header_text p{
+    font-size: 22px;
+  }
 }
