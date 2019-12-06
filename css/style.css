@@ -1,5 +1,6 @@
 /* General */
 body{
+  font-family: 'Roboto', sans-serif;
   /* background-color: lightgreen; */
 }
 
@@ -14,9 +15,8 @@ body{
   height: 70px;
   width: 100%;
   line-height: 70px;
-  z-index: 5;
-  background-color: pink;
-
+  z-index: 20;
+  /* background-color: pink; */
 }
 
 .logo img{
@@ -25,7 +25,40 @@ body{
 
 .menu_item ul li{
   display: inline-block;
+  padding-left: 15px;
 }
+
+.menu_item li a{
+  text-decoration: none;
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.menu_item li a:hover,
+.menu_item li a:active,
+.menu_item li a:focus{
+  color: #0069FF;
+}
+
+
+
+.menu_down{
+  vertical-align: middle;
+  font-size: 10px;
+}
+.btn_blue{
+  color: #0069FF;
+  border: 1px solid #0069FF;
+  font-weight: bold;
+}
+
+.btn_blue:hover,
+.btn_blue:active,
+.btn_blue:focus{
+  background-color: #0069FF;
+  color: white;
+}
+
 
 .menu_right{
   background-color: brown;
