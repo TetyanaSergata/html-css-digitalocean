@@ -4,7 +4,6 @@ body{
   /* background-color: lightgreen; */
 }
 
-
 /* Header */
 
 /* Navbar */
@@ -17,6 +16,7 @@ body{
   line-height: 70px;
   z-index: 20;
   /* background-color: pink; */
+  background-color: white;
 }
 
 .logo img{
@@ -40,12 +40,11 @@ body{
   color: #0069FF;
 }
 
-
-
 .menu_down{
   vertical-align: middle;
   font-size: 10px;
 }
+
 .btn_blue{
   color: #0069FF;
   border: 1px solid #0069FF;
@@ -59,13 +58,13 @@ body{
   color: white;
 }
 
-
 .menu_right{
-  background-color: brown;
-  /* height: 100%; */
+  /* background-color: brown; */
+  height: 100%;
 }
+
 .menu_left{
-  background-color: yellow;
+  /* background-color: yellow; */
   height: 100%;
 }
 
@@ -77,6 +76,12 @@ body{
   margin-top: 70px;
   padding-top: 100px;
   background-color: violet;
+}
+
+.header_form{
+  width: 100%;
+  height: 200px;
+  background-color: lightyellow;
 }
 
 /* Section logos */
