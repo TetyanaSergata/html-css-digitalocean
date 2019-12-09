@@ -63,6 +63,9 @@ body{
   padding-top: 20px;
 }
 
+.padding_top_40{
+  padding-top: 40px;
+}
 .padding_top_80{
   padding-top: 80px;
 }
@@ -147,12 +150,10 @@ body{
 }
 
 .menu_right{
-  /* background-color: brown; */
   height: 100%;
 }
 
 .menu_left{
-  /* background-color: yellow; */
   height: 100%;
 }
 
@@ -449,7 +450,27 @@ body{
 }
 
 
+ /* Section Get Started */
+.get_started{
+  width: 100%;
+  /* height: 200px; */
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+}
 
+.get_started_box h3{
+  color: white;
+}
+
+.get_started_box .btn_blue{
+  padding: 15px;
+}
+
+.get_started_box .btn_blue:hover,
+.get_started_box .btn_blue:focus,
+.get_started_box .btn_blue:active{
+  background-color: #98A3B8;
+}
 
 
 /* Footer */
@@ -464,17 +485,10 @@ body{
   .padding_top_xs{
     padding-top: 20px;
   }
-
-
 }
 /* SM */
 @media screen and (min-width: 768px){
-  /* .header_text h1{
-    font-size: 40px;
-  }
-  .header_text p{
-    font-size: 18px;
-  } */
+
   .logo_list img{
     max-width: 100%;
     height: 70px;
@@ -482,14 +496,13 @@ body{
 
   .logo_list .splunk{
     height: 50px;
-
   }
-
 }
 
 /* MD */
 @media screen and (min-width: 992px){
-  /.header_text h1{
+
+  .header_text h1{
     font-size: 50px;
   }
 
@@ -518,9 +531,6 @@ body{
   .rockerbox{
     padding: 15px;
   }
-
-
-
 }
 /* LG */
 @media screen and (min-width: 1200px){
@@ -529,13 +539,11 @@ body{
     width: 60%;
     height: 600px;
     margin: 0 auto;
-    /* background-color: lightblue; */
   }
 
   .droplets_image{
     max-width: 70%;
     margin: 0 auto;
-
   }
 
   .droplets_text{
@@ -545,7 +553,6 @@ body{
   .width_lg_90{
     width: 90%;
     margin: 0 auto;
-
   }
 
 
