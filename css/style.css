@@ -3,7 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
   /* background-color: lightgreen; */
 }
-
+/* Color */
 .color_blue{
   color: #031B4E;
 }
@@ -24,6 +24,7 @@ body{
   color: #98A3B8;
 }
 
+/* Fonts */
 .font_size_35{
   font-size: 35px;
 }
@@ -44,6 +45,7 @@ body{
   font-weight: bold;
 }
 
+/* Text-decoration */
 .link_underline{
   text-decoration: underline;
 }
@@ -52,8 +54,13 @@ body{
   text-decoration: none;
 }
 
+/* Padding */
 .padding_top_20{
   padding-top: 20px;
+}
+
+.padding_top_80{
+  padding-top: 80px;
 }
 
 .padding_bottom_20{
@@ -66,6 +73,10 @@ body{
 
 .padding_bottom_60{
   padding-bottom: 60px;
+}
+
+.padding_bottom_80{
+  padding-bottom: 80px;
 }
 
 
@@ -133,8 +144,8 @@ body{
   height: 100%;
 }
 
-/* Jumbotron */
 
+/* Jumbotron */
 .jumbo{
   width: 100%;
   /* height: 500px; */
@@ -154,17 +165,16 @@ body{
 .header_text h1{
   font-size: 40px;
 }
+
 .header_text p{
   font-size: 18px;
 }
-
 
 /* Form */
 .header_form{
   width: 100%;
   border-radius: 2%;
   /* height: 300px; */
-  /* padding: 50px 10px; */
   background-color: white;
 }
 
@@ -179,7 +189,6 @@ body{
 .text_term{
   padding-top: 15px;
 }
-
 
 .google_icon{
   height: 20px;
@@ -237,7 +246,6 @@ body{
 .top_main{
   /* height: 600px; */
   width: 100%;
-  padding-top: 80px;
   padding-left: 0px;
   padding-right: 10px;
   /* background-color: lightblue; */
@@ -282,20 +290,58 @@ body{
 /* For developers */
 
 .for_developers{
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
-  background-color: lightgreen;
+  background-color: #F3F5F9;
 }
 
-/* .width_lg_60{
-  width: 60%;
-  height: 600px;
+.droplets_image{
+  max-width: 60%;
   margin: 0 auto;
+  height: auto;
+}
+
+.droplets_text{
+  padding-bottom: 40px;
+}
+
+.droplets_list ul li{
+  display: inline;
+}
+
+.droplets_list li i{
+  color: #064CFF;
+  margin-right: 10px;
+}
+
+.droplets_list li a{
+  text-decoration: none;
+}
+
+.droplets_list li:first-child i{
+  background-color: #064CFF;
+  border-radius: 50%;
+}
+
+.droplets_list li i:hover,
+.droplets_list li i:focus,
+.droplets_list li i:active{
+  background-color: #c2cfe8;
+  border-radius: 50%;
+}
+
+.droplets_list li:first-child i:hover,
+.droplets_list li:first-child i:focus,
+.droplets_list li:first-child i:active{
+  background-color: #064CFF;
+}
+
+/* For business */
+.for_business{
+  height: 600px;
+  width: 100%;
   background-color: lightblue;
-} */
-
-
-
+}
 
 /* Footer */
 
@@ -361,6 +407,13 @@ body{
     padding-bottom: 40px;
   }
 
+  .droplets_image{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+
+
 }
 /* LG */
 @media screen and (min-width: 1200px){
@@ -373,7 +426,16 @@ body{
     width: 60%;
     height: 600px;
     margin: 0 auto;
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 
+  .droplets_image{
+    max-width: 70%;
+    margin: 0 auto;
+
+  }
+
+  .droplets_text{
+    padding-bottom: 0px;
+  }
 }
