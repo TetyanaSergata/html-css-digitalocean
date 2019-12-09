@@ -207,13 +207,14 @@ body{
 .logo_list img{
   vertical-align: middle;
   max-width: 100%;
-  height: 70px;
+  height: 140px;
   margin: 10px 30px;
 }
 
 .logo_list .splunk{
-  height: 50px;
-  /* padding-bottom: 20px; */
+  height: 80px;
+  padding-bottom: 20px;
+  /* margin-bottom: 10px; */
 }
 
 .link_customer{
@@ -234,7 +235,7 @@ body{
 /* Main*/
 /* Top Main */
 .top_main{
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
   padding-top: 80px;
   padding-left: 0px;
@@ -254,6 +255,13 @@ body{
   color: #98A3B8;
 }
 
+.list_item li a:hover,
+.list_item li a:active,
+.list_item li a:focus{
+  text-decoration: none;
+  color: #031B4E;
+}
+
 .list_item li:first-child a {
   color: #031B4E;
 }
@@ -261,8 +269,6 @@ body{
 .column_item p{
   color: #4E5F83;
   font-size: 18px;
-
-
 }
 
 .column_item h4{
@@ -272,6 +278,22 @@ body{
 .column_item img{
   padding-bottom: 10px;
 }
+
+/* For developers */
+
+.for_developers{
+  height: 600px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+/* .width_lg_60{
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: lightblue;
+} */
+
 
 
 
@@ -288,8 +310,9 @@ body{
     padding-top: 20px;
   }
 
+
 }
-/* MD */
+/* SM */
 @media screen and (min-width: 768px){
   /* .header_text h1{
     font-size: 40px;
@@ -297,11 +320,19 @@ body{
   .header_text p{
     font-size: 18px;
   } */
+  .logo_list img{
+    max-width: 100%;
+    height: 70px;
+  }
 
+  .logo_list .splunk{
+    height: 50px;
+
+  }
 
 }
 
-/* LG */
+/* MD */
 @media screen and (min-width: 992px){
   /.header_text h1{
     font-size: 50px;
@@ -326,6 +357,23 @@ body{
     padding-bottom: 61px;
   }
 
-}
+  .column_item .padding_bottom_md{
+    padding-bottom: 40px;
+  }
 
-@media screen and (min-width: 1200px)
+}
+/* LG */
+@media screen and (min-width: 1200px){
+  /* .width_lg_80{
+    width: 80%;
+    margin: 0 auto;
+  } */
+
+  .width_lg_60{
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: lightblue;
+  }
+
+}
