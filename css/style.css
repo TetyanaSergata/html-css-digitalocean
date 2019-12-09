@@ -395,6 +395,10 @@ body{
   padding-left: 5px;
 }
 
+.table.data_table>tbody>tr:first-child td{
+  border-top: none;
+}
+
 /* Digital Ocean */
 .digital_ocean{
   width: 100%;
@@ -463,13 +467,14 @@ body{
 }
 
 .get_started_box .btn_blue{
-  padding: 15px;
+  padding: 15px 35px;
 }
 
 .get_started_box .btn_blue:hover,
 .get_started_box .btn_blue:focus,
 .get_started_box .btn_blue:active{
-  background-color: #98A3B8;
+  background-color: #CCDAFF;
+  color: #064CFF;
 }
 
 
